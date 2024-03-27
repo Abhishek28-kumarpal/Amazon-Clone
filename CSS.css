@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav_address{
+    /* margin-left: 10px; */
+    
+}
+.nav_address:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+.logo_size{
+    width: 100px;
+    height: 50px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    width: 100px;
+    height: 60px;
+    background-size: cover;
+    
+
+}
+.border{
+    border: 2px solid transparent;
+   border-radius: 2px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+.mar{
+    margin-right:1px;
+}
+
+.add_first{
+color: #cccccc ;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.add_second{
+margin: 3px;
+font-weight: 700;
+
+}
+.nav_search{
+ 
+    width: 600px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    
+}
+.search_select{
+    background-color: #e6e6e6;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   width: 60px ;
+   height: 40px;
+   border: none;
+   
+}
+.search-icon{
+    background-color: rgb(231, 196, 202);
+    width: 59px ;
+   height: 40px;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   border: black 5px;
+   
+}
+.search-icon2{
+    
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   background-color: #febd68;
+   color: #0f1111;
+}
+
+.border2{
+    border: 2px solid transparent;
+   border-radius: 0px;
+}
+.size{
+    width: 600px;
+    font-size: 1rem;
+}
+/* .flag_lang{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image:url(US.png);
+   background-size: cover;
+   
+    cursor: pointer;
+    width: 40px;
+    height: 35px;
+    padding: 0;
+    background-color: black;
+} */
+/* #US{
+ width: 40px;
+ backface-visibility: hidden;
+} */
+
+.nav-signin{
+    font-weight: 700;
+    font-size: 15px;
+}
+.nav-signin:hover{
+    border: 1px solid white;
+}
+.resize{
+    font-weight:1;
+   
+}
+span{
+    font-size: 0.8rem;
+}
+.display-cart{
+display: flex;
+}
+.display-cart:hover{
+    border: 1px solid white;
+}
+.cart_size{
+font-weight: 700;
+margin-top: 17px;
+}
+.logo_size1{
+    font-size: 30px;
+    margin-top: 3px;
+    
+}
+
+/* nevbar END */
+
+/* menu panel start*/
+.menu_panel{
+    height: 40px;
+    background-color: #222f3d;
+display: flex;
+color: white;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+
+
+}
+.panel1{
+
+}
+.panel2 p  /* target classes and Element also p is another target*/
+{ 
+    display: inline;  
+    margin-left: 15px;
+}
+.panel2 {
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.panel3{
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero_Section */
+.hero_section{
+    background-image: url(hero_image.jpg);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+
+.hero_message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 0.85rem;
+     
+     
+
+}
+.hero_link{
+    color: #007186;
+
+}
+
+
+/* ship section */
+.shop_section{
+    /* border: 2px solid black;
+    width: 100%;
+    height: 100px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.shop{
+    
+    width: 20%;
+    height: 400px;
+    margin: 1%;
+    background-color: white;
+    padding: 15px ;
+}
+.image{
+    background-size: cover;
+    height: 350px;
+}
+.see{
+    font-size: 0.85rem;
+    margin: 20px 0px 0px 0px;
+}
+.h3{
+    margin: 0px 2px 6px 0px;
+}
+h4{
+    padding: 0px 0px 0px 50px;
+}
+
+/* footer_panel1 */
+footer{
+    margin: 15px;
+}
+.foot_panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot_panel2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.foot_align{
+padding: 30px;
+}
+.foot_mar a{
+margin: 10px;
+display: block;
+}
+.panel_3{
+    
+    background-color: #232f3e;
+    height: 150px;
+    
+}
+
+.px{
+    
+    
+}
